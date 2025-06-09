@@ -18,7 +18,7 @@ export default function Home() {
       <div className={`md:flex grid grid-cols-1 gap-y-2 gap-x-10 lg:items-center justify-between w-full ${contact === true ? "pointer-events-none opacity-60" : ""}`}>
 
         <div className="w-full md:w-1/2  md:text-left space-y-6">
-          <h1 className="text-3xl lg:text-5xl text-center font-extrabold leading-tight">
+          <h1 className="text-3xl lg:text-5xl text-center lg:text-start font-extrabold leading-tight">
             Blogger,<br /> Web Developer
           </h1>
 
