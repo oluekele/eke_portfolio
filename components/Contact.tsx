@@ -71,9 +71,14 @@ const Contact = () => {
         publicKey
       );
 
-      toast.success('Message sent successfully!');
       form.current.reset();
       console.log('EmailJS success:', result.text);
+      setContact(false)
+      setTimeout(() => {
+        toast.success("Thank you for reaching out to Eke!", {
+          description: "Your message has been sent successfully.",
+        });
+      }, 300);
     } catch (error) {
       console.error('EmailJS error:', error);
       toast.error('Failed to send message. Try again later.');
