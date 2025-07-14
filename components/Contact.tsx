@@ -45,8 +45,8 @@ const Contact = () => {
     if (!form.current || isSubmitting) return;
 
     const formData = new FormData(form.current);
-    const name = formData.get('your_name')?.toString().trim();
-    const email = formData.get('your_email')?.toString().trim();
+    const name = formData.get('name')?.toString().trim();
+    const email = formData.get('email')?.toString().trim();
     const message = formData.get('message')?.toString().trim();
 
     if (!name || !email || !message) {
@@ -114,7 +114,7 @@ const Contact = () => {
                 <Input
                   className='!py-6'
                   type="text"
-                  name="your_name"
+                  name="name"
                   placeholder="Your Name"
                   required
                   disabled={isSubmitting}
@@ -122,7 +122,7 @@ const Contact = () => {
                 <Input
                   type="email"
                   className='!py-6'
-                  name="your_email"
+                  name="email"
                   placeholder="Your Email"
                   required
                   disabled={isSubmitting}
