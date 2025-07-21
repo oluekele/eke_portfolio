@@ -2,14 +2,30 @@
 export const projects = [
   {
     id: 1,
-    title: "Starter Kit Dashboard",
-    platform: "vercel",
-    url: "https://starter-kit-alpha-one.vercel.app/dashboard",
-    summary: "A full-stack Next.js dashboard with secure authentication, protected routes, and modern UI. Built with NextAuth, Prisma, and Tailwind.",
-    image: "/auth.png", 
+    title: "Property Management Dashboard",
+    platform: "Vercel",
+    url: "https://property-f.vercel.app",
+    summary: "A full-stack real estate property management platform with secure admin authentication, protected routes, and CRUD operations. Built with Next.js, Express.js, MongoDB, and Tailwind CSS, featuring Cloudinary image uploads and JWT-based authentication.",
+    image: "/propertD.png"
   },
   {
     id: 2,
+    title: "Efan Real Estate Platform",
+    platform: "Vercel",
+    url: "https://efan.vercel.app/p",
+    summary: "A landing page Top rice producers in Agbor, Delta State, Nigeria. Built with Next.js, and Tailwind CSS.",
+    image: "/efan.png"
+  },
+  {
+    id: 3,
+    title: "Starter Kit Dashboard",
+    platform: "vercel",
+    url: "https://starter-kit-alpha-one.vercel.app/dashboard",
+    summary: "A full-stack Next.js dashboard with secure authentication, protected routes, and modern UI, and Tailwind.",
+    image: "/auth.png", 
+  },
+  {
+    id: 4,
     title: "Amadi Website",
     platform: "github",
     url: "https://amadi-frontend.vercel.app",
@@ -17,7 +33,7 @@ export const projects = [
     image: "/amadi.png", 
   },
   {
-    id: 3,
+    id: 5,
     title: "QuruStudio Audio Store",
     platform: "github",
     url: "https://qurustudio-audio-store-main.vercel.app",
@@ -25,7 +41,7 @@ export const projects = [
     image: "/qurustudio.png", 
   },
   {
-    id: 4,
+    id: 6,
     title: "GetScrow Landing Page",
     platform: "vercel",
     url: "https://getscrow-landing-page.vercel.app",
@@ -33,7 +49,7 @@ export const projects = [
     image: "/getscrow.png", 
   },
   {
-    id: 5,
+    id: 7,
     title: "MusicPadi",
     platform: "vercel",
     url: "https://musicpadi.vercel.app",
@@ -41,7 +57,7 @@ export const projects = [
     image: "/musicpadi.png", 
   },
   {
-    id: 6,
+    id: 8,
     title: "React Multi-Page Project",
     platform: "GitHub Pages",
     url: "https://oluekele.github.io/Project",
@@ -49,7 +65,7 @@ export const projects = [
     image: "/project.png", 
   },
   {
-    id: 7,
+    id: 9,
     title: "Sonia Project",
     platform: "GitHub Pages",
     url: "https://oluekele.github.io/Sonia-Project/Project.html",
