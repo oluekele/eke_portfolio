@@ -23,7 +23,7 @@ export default function Home() {
           </h1>
 
           <p className="text-lg text-gray-300 max-w-md mx-auto md:mx-0 ">
-            I&apos;m a frontend web developer based in Nigeria. I enjoy building clean, responsive user interfaces using React, Next.js, Tailwind CSS, and TypeScript. I&apos;m passionate about continuous learning and creating solutions that are both functional and visually appealing.
+            I am a frontend web developer based in Nigeria with expertise in React, Next.js, Tailwind CSS, and TypeScript. I specialize in building clean, responsive, and user-friendly interfaces, and I am currently expanding into full-stack development with a focus on backend technologies and databases. I am passionate about continuous learning, problem-solving, and delivering solutions that are both functional and visually appealing.
           </p>
 
           <Link href="/portfolio">
